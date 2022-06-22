@@ -1,0 +1,9 @@
+canvas{
+    animation-name: filter;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes filter{
+    from{box-shadow: 1px 1px 38px rgb(255, 150, 255);}
+    to{box-shadow: 1px 1px 38px rgb(106, 238, 255);}
+}
